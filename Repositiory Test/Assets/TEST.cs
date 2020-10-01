@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,7 +15,7 @@ public class TEST : MonoBehaviour
     {
         if (Input.GetKeyDown("s"))
         {
-            print("Hello World");
+            print("Hello World!!!");
         }
     }
 }
