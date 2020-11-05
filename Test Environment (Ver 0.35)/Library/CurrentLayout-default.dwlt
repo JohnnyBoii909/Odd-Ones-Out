@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 7}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -41,8 +41,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 595
     y: 0
+<<<<<<< Updated upstream
     width: 605
     height: 438
+=======
+    width: 1011
+    height: 538
+>>>>>>> Stashed changes
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
@@ -69,12 +74,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< Updated upstream
     width: 1536
     height: 771
   m_MinSize: {x: 781, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
   controlID: 58
+=======
+    width: 2560
+    height: 947
+  m_MinSize: {x: 781, y: 492}
+  m_MaxSize: {x: 16006, y: 14042}
+  vertical: 0
+  controlID: 68
+>>>>>>> Stashed changes
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -92,8 +106,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1200
     y: 0
+<<<<<<< Updated upstream
     width: 336
     height: 771
+=======
+    width: 559
+    height: 947
+>>>>>>> Stashed changes
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
@@ -118,8 +137,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
     width: 244
     height: 438
+=======
+    width: 210
+    height: 538
+>>>>>>> Stashed changes
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
@@ -143,9 +167,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< Updated upstream
     y: 438
     width: 1200
     height: 333
+=======
+    y: 538
+    width: 2001
+    height: 409
+>>>>>>> Stashed changes
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 15}
@@ -174,9 +204,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
     width: 1536
     height: 821
   m_MinSize: {x: 875, y: 542}
+=======
+    width: 2560
+    height: 997
+  m_MinSize: {x: 875, y: 300}
+>>>>>>> Stashed changes
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &8
 MonoBehaviour:
@@ -240,12 +276,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
     width: 1200
     height: 771
   m_MinSize: {x: 505, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
   controlID: 63
+=======
+    width: 2001
+    height: 947
+  m_MinSize: {x: 505, y: 492}
+  m_MaxSize: {x: 12005, y: 14042}
+  vertical: 1
+  controlID: 69
+>>>>>>> Stashed changes
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -271,7 +316,11 @@ MonoBehaviour:
   m_MinSize: {x: 505, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 64
+=======
+  controlID: 70
+>>>>>>> Stashed changes
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -335,9 +384,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.26999998, y: 0.099999905, z: 0}
+    m_Target: {x: 0.900225, y: 0.43029878, z: -3.237006}
     speed: 2
-    m_Value: {x: -0.26999998, y: 0.099999905, z: 0}
+    m_Value: {x: 0.87890387, y: 0.3792804, z: -3.218198}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -387,9 +436,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 8.434126
+    m_Target: 4.3676996
     speed: 2
-    m_Value: 8.434126
+    m_Value: 4.179617
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -491,8 +540,13 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
     m_SelectedIDs: 7c390000
     m_LastClickedID: 14716
+=======
+    m_SelectedIDs: 84390000
+    m_LastClickedID: 14724
+>>>>>>> Stashed changes
     m_ExpandedIDs: 000000005a3900005c3900005e39000060390000623900006439000066390000683900006a3900006c3900006e3900007039000072390000743900007639000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
