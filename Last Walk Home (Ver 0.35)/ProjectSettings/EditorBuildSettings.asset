@@ -9,9 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Version1.unity
     guid: 18413d1231b98df4ea21fa407a30c03a
   - enabled: 1
-    path: Assets/Scenes/Train Platform.unity
+    path: Assets/Scenes/1st Train Platform.unity
     guid: 39010063b8062d34b9803761cc345667
   - enabled: 1
-    path: Assets/Scenes/Concourse.unity
+    path: Assets/Scenes/2nd Concourse.unity
     guid: cf219fbbf612c6544b8230af0d8bbebd
+  - enabled: 1
+    path: Assets/Scenes/3rd Subway Exit.unity
+    guid: f654f7bf4aa39dc4e88051a45bc3aa1f
+  - enabled: 1
+    path: Assets/Scenes/4th Suburb.unity
+    guid: 93caf7c280dcb1244b3ea2b0b574893e
+  - enabled: 1
+    path: Assets/Scenes/5th Home.unity
+    guid: 6f3f9b881eacb7e4085ca3e0bd2ccae1
   m_configObjects: {}
