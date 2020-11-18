@@ -19,7 +19,7 @@ public class ItemTrade : MonoBehaviour
     {
         if (itemProgress.Count >= maxItems)
         {
-            
+            //Victory State
         }
     }
 

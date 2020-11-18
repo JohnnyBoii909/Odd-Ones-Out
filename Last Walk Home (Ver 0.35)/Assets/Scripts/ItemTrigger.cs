@@ -39,7 +39,7 @@ public class ItemTrigger : MonoBehaviour
             {
                 if (!thisInterract)
                 {
-                    print("Interact");
+                    print(item);
                     ProgressChecker.haveItem(item);
                     thisInterract = true;
                 }
