@@ -755,7 +755,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -20}
+  m_AnchoredPosition: {x: 20, y: -25}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1201766277
@@ -794,10 +794,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
+    m_FontSize: 20
+    m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -1069,10 +1069,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 1025997316}
-  buttonActive: 0
-  ProgressChecker: {fileID: 212718095}
-  item: {fileID: 11400000, guid: 007f8d3c7d6c5cc48849aa891e70d5a8, type: 2}
-  thisInterract: 0
+  triggerSteps: 
+  gamestate: {fileID: 0}
 --- !u!70 &1705281958
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1286,10 +1284,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 1020190756}
-  buttonActive: 1
-  ProgressChecker: {fileID: 212718095}
-  item: {fileID: 11400000, guid: 07c6d667056bc2a43847a0f0ca9ddd36, type: 2}
-  thisInterract: 0
+  triggerSteps: 
+  gamestate: {fileID: 0}
 --- !u!61 &2117111168
 BoxCollider2D:
   m_ObjectHideFlags: 0
