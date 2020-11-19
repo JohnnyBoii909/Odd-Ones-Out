@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
@@ -30,3 +31,30 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
+=======
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Febucci.HierarchyIcons.Examples", "Febucci.HierarchyIcons.Examples.csproj", "{19eea147-65f1-929c-82f3-9330372e6371}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{1b42e424-8746-0432-90d7-72d0e682a3bc}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Febucci.HierarchyIcons", "Febucci.HierarchyIcons.csproj", "{287e8515-0ec9-6e2c-82cd-18f95c0ece26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19eea147-65f1-929c-82f3-9330372e6371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19eea147-65f1-929c-82f3-9330372e6371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1b42e424-8746-0432-90d7-72d0e682a3bc}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1b42e424-8746-0432-90d7-72d0e682a3bc}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287e8515-0ec9-6e2c-82cd-18f95c0ece26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287e8515-0ec9-6e2c-82cd-18f95c0ece26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
+>>>>>>> Stashed changes
