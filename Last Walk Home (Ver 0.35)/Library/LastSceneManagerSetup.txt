@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
+- path: Assets/Scenes/1st Train Platform.unity
+=======
 - path: Assets/Scenes/4th Suburb.unity
+>>>>>>> main
   isLoaded: 1
   isActive: 1
   isSubScene: 0
