@@ -5,17 +5,14 @@ using UnityEngine;
 public class ItemTrigger : MonoBehaviour
 {
     public GameObject button;
-    public bool buttonActive;
-    public ItemTrade ProgressChecker;
-    [SerializeField] Items item;
-    public bool thisInterract = false;
+    public List<int> triggerSteps;
+    public GamestateTracker gamestate;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (button != null)
         {
             button.SetActive(true);
-            buttonActive = true;
         }
 
     }
@@ -25,7 +22,6 @@ public class ItemTrigger : MonoBehaviour
         if (button != null)
         {
             button.SetActive(false);
-            buttonActive = false;
         }
     }
 
@@ -33,24 +29,17 @@ public class ItemTrigger : MonoBehaviour
     void Update()
     {
 
-        if (buttonActive)
+        if (Input.GetKeyDown(KeyCode.Space)&&button.activeSelf)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            foreach(int i in triggerSteps)
             {
-                if (!thisInterract)
+                if (i == gamestate.Gamestep)
                 {
-                    print(item);
-                    ProgressChecker.haveItem(item);
-                    thisInterract = true;
+                    gamestate.Gamestep ++;
+                    print(gamestate.Gamestep);
+                    break;
                 }
             }
         }
-
-        if (thisInterract)
-        {
-            button.SetActive(false);
-        }
-
-
     }
 }

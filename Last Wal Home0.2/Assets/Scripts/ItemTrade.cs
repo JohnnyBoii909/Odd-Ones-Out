@@ -15,25 +15,4 @@ public class ItemTrade : MonoBehaviour
         return true;
     }
 
-    private void checkProgress()
-    {
-        if (itemProgress.Count >= maxItems)
-        {
-            //Victory State
-        }
-    }
-
-    
-
-    private void Start()
-    {
-      
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-      
-    }
 }
