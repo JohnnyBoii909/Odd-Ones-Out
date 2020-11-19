@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{47A1EE19-F165-9C92-82F3-9330372E6371}</ProjectGuid>
+    <ProjectGuid>{0500FF03-E691-BA66-D241-80629A4F0449}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Febucci.HierarchyIcons.Examples</AssemblyName>
@@ -610,10 +610,10 @@
       <HintPath>D:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/GitKraken clone/Odd Ones Out/Last Wal Home0.2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/GitKraken clone/Odd Ones Out/Last Walk Home (Ver 0.55)/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/GitKraken clone/Odd Ones Out/Last Wal Home0.2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/GitKraken clone/Odd Ones Out/Last Walk Home (Ver 0.55)/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
