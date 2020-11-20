@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Febucci.HierarchyIcons.Examples", "Febucci.HierarchyIcons.Examples.csproj", "{0500FF03-E691-BA66-D241-80629A4F0449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{30DC00E7-FD42-B70E-64CD-F79DB73C682A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Febucci.HierarchyIcons", "Febucci.HierarchyIcons.csproj", "{BAC0C0CF-4CD6-0CF8-0DA0-CC53E5869D8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0500FF03-E691-BA66-D241-80629A4F0449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0500FF03-E691-BA66-D241-80629A4F0449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0500FF03-E691-BA66-D241-80629A4F0449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0500FF03-E691-BA66-D241-80629A4F0449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30DC00E7-FD42-B70E-64CD-F79DB73C682A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DC00E7-FD42-B70E-64CD-F79DB73C682A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DC00E7-FD42-B70E-64CD-F79DB73C682A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DC00E7-FD42-B70E-64CD-F79DB73C682A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC0C0CF-4CD6-0CF8-0DA0-CC53E5869D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC0C0CF-4CD6-0CF8-0DA0-CC53E5869D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC0C0CF-4CD6-0CF8-0DA0-CC53E5869D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC0C0CF-4CD6-0CF8-0DA0-CC53E5869D8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

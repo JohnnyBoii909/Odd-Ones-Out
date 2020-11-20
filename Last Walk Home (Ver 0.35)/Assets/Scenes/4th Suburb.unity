@@ -489,7 +489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   button: {fileID: 944913565}
   buttonActive: 1
-  ProgressChecker: {fileID: 0}
+  ProgressChecker: {fileID: 123873076}
   item: {fileID: 11400000, guid: 07c6d667056bc2a43847a0f0ca9ddd36, type: 2}
   thisInterract: 0
 --- !u!70 &110784736
@@ -2790,7 +2790,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   button: {fileID: 670228789}
   buttonActive: 0
-  ProgressChecker: {fileID: 0}
+  ProgressChecker: {fileID: 123873076}
   item: {fileID: 11400000, guid: 007f8d3c7d6c5cc48849aa891e70d5a8, type: 2}
   thisInterract: 0
 --- !u!70 &2038955586
