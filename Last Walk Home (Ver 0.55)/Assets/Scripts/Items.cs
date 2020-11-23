@@ -10,6 +10,6 @@ public class Items : ScriptableObject
 
     public string itemName;
 
-    public Sprite itemSprite;
+    public Sprite icon;
 
 }

@@ -37,6 +37,8 @@ public class ItemTrigger : MonoBehaviour
                 {
                     gamestate.Gamestep ++;
                     print(gamestate.Gamestep);
+                    //print(Items.itemName);
+
                     break;
                 }
             }
