@@ -1958,7 +1958,7 @@ Transform:
   - {fileID: 1999022114}
   - {fileID: 650980942}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &650980941
 GameObject:
@@ -1971,7 +1971,6 @@ GameObject:
   - component: {fileID: 650980942}
   - component: {fileID: 650980945}
   - component: {fileID: 650980944}
-  - component: {fileID: 650980943}
   - component: {fileID: 650980946}
   - component: {fileID: 650980947}
   m_Layer: 0
@@ -1996,21 +1995,6 @@ Transform:
   m_Father: {fileID: 197415526}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &650980943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650980941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 669ec044397a99b42b2b32309b66e712, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  button: {fileID: 1734829334}
-  triggerSteps: 
-  gamestate: {fileID: 0}
 --- !u!483693784 &650980944
 TilemapRenderer:
   m_ObjectHideFlags: 0
@@ -2134,7 +2118,7 @@ Tilemap:
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
-  m_Color: {r: 0.5471698, g: 0.5397717, b: 0, a: 1}
+  m_Color: {r: 1, g: 0.8588378, b: 0, a: 1}
   m_Origin: {x: -7, y: -2, z: 0}
   m_Size: {x: 7, y: 7, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
@@ -2181,9 +2165,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 650980941}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09b5e2c496936ec4796fbfbcd4de9b4f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b6a201241c16c7429a72ff803c8bf58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  direction: 0
+  levelIndex: 2
 --- !u!1 &1462127736
 GameObject:
   m_ObjectHideFlags: 0
@@ -2216,8 +2202,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31134626cca2ef94c949313b45d6185b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2.5
+  speed: 6
   jumpForce: 0
+  direction: 2
 --- !u!50 &1462127738
 Rigidbody2D:
   serializedVersion: 4
@@ -2512,6 +2499,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1962969668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1962969670}
+  - component: {fileID: 1962969669}
+  m_Layer: 0
+  m_Name: PlayerPositioner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1962969669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962969668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8545b0bfd753ef04fa6bb5f4f11d02a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftPosition: {x: -5.3, y: -1.035, z: 0}
+  rightPosition: {x: 5.3, y: -1.035, z: 0}
+--- !u!4 &1962969670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962969668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: -1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1999022113
 GameObject:
