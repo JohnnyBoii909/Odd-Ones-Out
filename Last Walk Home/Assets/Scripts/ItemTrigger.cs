@@ -8,6 +8,11 @@ public class ItemTrigger : MonoBehaviour
     public List<int> triggerSteps;
     public GamestateTracker gamestate;
 
+    private void Start()
+    {
+        gamestate = GameObject.FindGameObjectWithTag("Player").GetComponent<GamestateTracker>();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (button != null)
@@ -36,6 +41,7 @@ public class ItemTrigger : MonoBehaviour
                 if (i == gamestate.Gamestep)
                 {
                     gamestate.Gamestep ++;
+                    gamestate.Updatestep();
                     print(gamestate.Gamestep);
                     //print(Items.itemName);
 

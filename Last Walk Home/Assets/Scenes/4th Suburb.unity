@@ -698,7 +698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 944913565}
-  triggerSteps: 0000000003000000
+  triggerSteps: 0000000004000000
   gamestate: {fileID: 0}
 --- !u!70 &110784736
 CapsuleCollider2D:
