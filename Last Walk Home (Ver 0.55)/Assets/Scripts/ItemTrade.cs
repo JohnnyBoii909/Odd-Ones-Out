@@ -6,7 +6,7 @@ public class ItemTrade : MonoBehaviour
 {
     public List<Items> itemProgress;
 
-    public int maxItems = 5;
+    public int maxItems = 2;
 
     public bool haveItem(Items Item)
     {
