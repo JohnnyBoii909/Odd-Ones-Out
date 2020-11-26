@@ -203,7 +203,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: bfaa1c6b1efd8124c9a455b2a6d2a192, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -497,7 +497,7 @@ GameObject:
   - component: {fileID: 554178901}
   - component: {fileID: 554178900}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Inventory Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1002,6 +1002,7 @@ MonoBehaviour:
   - {fileID: 0}
   inventorySlots:
   - {fileID: 1553200567}
+  gamestate: {fileID: 0}
 --- !u!4 &1224859797
 Transform:
   m_ObjectHideFlags: 0
@@ -1214,7 +1215,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38414908dd0616641b7b98ee8581fb6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 0}
+  item: {fileID: 11400000, guid: 41c9b4de1047b644eb46247472c0c32d, type: 2}
   icon: {fileID: 233478359}
 --- !u!224 &1553200568
 RectTransform:
