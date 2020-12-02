@@ -373,6 +373,7 @@ GameObject:
   - component: {fileID: 580323513}
   - component: {fileID: 580323515}
   - component: {fileID: 580323516}
+  - component: {fileID: 580323517}
   m_Layer: 9
   m_Name: Chest
   m_TagString: Untagged
@@ -478,13 +479,34 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 580323512}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb4ffc5374ab00f4d8c6387b3f3edd4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  buttonActive: 0
+  buttonActive: 1
+--- !u!114 &580323517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580323512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac8ca00ff956c14f90aa7fd6baf84e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDisplay: {fileID: 242341247}
+  sentences:
+  - 'You: ER MEH GERD'
+  - 'Magical Chest: IT''S WORKING!'
+  - 'You: Oh boy.....'
+  typingSpeed: 0.03
+  button: {fileID: 0}
+  continueButton: {fileID: 2128160495}
+  buttonActive: 1
 --- !u!1 &606768716
 GameObject:
   m_ObjectHideFlags: 0
@@ -644,7 +666,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 0}
-  buttonActive: 0
+  buttonActive: 1
 --- !u!1 &663086710
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,61 +833,6 @@ Canvas:
   m_SortingLayerID: 255683131
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!1 &1320003393
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1320003395}
-  - component: {fileID: 1320003394}
-  m_Layer: 0
-  m_Name: DialogueManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1320003394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1320003393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bac8ca00ff956c14f90aa7fd6baf84e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textDisplay: {fileID: 242341247}
-  sentences:
-  - 'YOU: Hey, a magical chest!'
-  - 'MAGICAL CHEST: That''s right!'
-  - 'YOU: Wait, you can talk?!'
-  - 'MAGICAL CHEST: What''s wrong with that?'
-  - 'YOU: Well, you''re suppose to be an inanimate object, so what the heck?'
-  - 'MAGICAL CHEST: Well, it''s very clear that you don''t like magical chests, which
-    means no loot for you!'
-  - 'YOU: Aw.....'
-  typingSpeed: 0.03
-  continueButton: {fileID: 2128160495}
---- !u!4 &1320003395
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1320003393}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.6723962, y: -0.268283, z: -0.32268414}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1377042856
 GameObject:
   m_ObjectHideFlags: 0
@@ -1073,7 +1040,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2128160496
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1136,7 +1103,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1320003394}
+      - m_Target: {fileID: 580323517}
         m_MethodName: NextSentence
         m_Mode: 1
         m_Arguments:

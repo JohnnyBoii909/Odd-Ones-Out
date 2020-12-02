@@ -16,7 +16,6 @@ public class TriggerTest : MonoBehaviour
             button.SetActive(true);
             buttonActive = true;
         }
-
     }
 
     private void OnTriggerExit2D(Collider2D collision)
