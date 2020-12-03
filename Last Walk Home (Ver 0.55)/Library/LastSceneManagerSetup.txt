@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Scenes/3rd Subway Exit.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
