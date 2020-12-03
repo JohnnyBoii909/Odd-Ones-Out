@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Dog
   m_EditorClassIdentifier: 
   itemName: Dog
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: dee658af799447b408187dd83824cd52, type: 3}

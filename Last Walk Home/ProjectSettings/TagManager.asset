@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Dog
+  - Coin
+  - Cigarette
+  - Burger
   layers:
   - Default
   - TransparentFX

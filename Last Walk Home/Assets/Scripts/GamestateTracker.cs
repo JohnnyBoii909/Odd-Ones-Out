@@ -5,28 +5,31 @@ using UnityEngine;
 public class GamestateTracker : MonoBehaviour
 {
     public BoxCollider2D dco;
-
+    public GameObject ItemOnUI;
     public int Gamestep = 0;
     public void Updatestep()
     {
         switch (Gamestep)
         {
             case 0:
-                //nothing 
+                //before talking to dog 
+               ItemOnUI = GameObject.FindGameObjectWithTag("Coin");
+               ItemOnUI.SetActive(true) ;
                 break;
             case 1:
-                //All functions 1
+                //after dog interaction
                 break;
             case 2:
-                //All functions 2
+                //after employee interaction
                 break;
             case 3:
-                //All functions 3
+                //After cigarette
                 break;
             case 4:
-                //All functions 4
+                //get burger
                 break;
             case 5:
+                //after Dog fed
                 dco = GameObject.FindGameObjectWithTag("Dog").GetComponent<BoxCollider2D>();
                 dco.enabled = false;
                 break;

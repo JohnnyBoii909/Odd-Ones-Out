@@ -13,6 +13,7 @@ public class CountdownTimer : MonoBehaviour
     {
         // Starts the timer automatically
         timerIsRunning = true;
+        
     }
 
     void Update()
