@@ -1173,10 +1173,17 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
+<<<<<<< Updated upstream
         <HintPath>C:/Users/Ska_P/Unity Projects/20T3/Odd-Ones-Out/Last Walk Home/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>C:/Users/Ska_P/Unity Projects/20T3/Odd-Ones-Out/Last Walk Home/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+=======
+      <HintPath>D:/RepoBackup/Odd-Ones-Out/Last Walk Home/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/RepoBackup/Odd-Ones-Out/Last Walk Home/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+>>>>>>> Stashed changes
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -839,6 +839,7 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
+<<<<<<< Updated upstream
         <HintPath>C:/Users/Ska_P/Unity Projects/20T3/Odd-Ones-Out/Last Walk Home/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
@@ -846,6 +847,9 @@
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Common">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+=======
+      <HintPath>D:/RepoBackup/Odd-Ones-Out/Last Walk Home/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+>>>>>>> Stashed changes
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -1202,6 +1206,7 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
+<<<<<<< Updated upstream
         <HintPath>C:/Users/Ska_P/Unity Projects/20T3/Odd-Ones-Out/Last Walk Home/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
@@ -1212,6 +1217,18 @@
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
         <HintPath>C:/Users/Ska_P/Unity Projects/20T3/Odd-Ones-Out/Last Walk Home/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+=======
+      <HintPath>D:/RepoBackup/Odd-Ones-Out/Last Walk Home/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/RepoBackup/Odd-Ones-Out/Last Walk Home/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>D:/RepoBackup/Odd-Ones-Out/Last Walk Home/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>D:/RepoBackup/Odd-Ones-Out/Last Walk Home/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+>>>>>>> Stashed changes
     </Reference>
   </ItemGroup>
   <ItemGroup>
