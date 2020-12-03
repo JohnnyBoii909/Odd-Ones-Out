@@ -7,11 +7,12 @@ public class Dialogue : MonoBehaviour
 {
 	public TextMeshProUGUI textDisplay;
 	public string[] sentences;
-	private int index;
+	public int index;
 	public float typingSpeed;
 	
 	public GameObject button;
 	public bool buttonActive;
+	public bool typing;
 	
 	
 	private void OnTriggerEnter2D(Collider2D collision)
@@ -38,8 +39,12 @@ public class Dialogue : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Space)&&button.activeSelf)
             {
-				//Starts the Dialogue
-				StartCoroutine(Type());
+				if (!typing)
+				{
+					typing = true;
+					//Starts the Dialogue
+					StartCoroutine(Type());
+				}
 				
                 if(textDisplay.text == sentences[index])
 				{
@@ -48,7 +53,8 @@ public class Dialogue : MonoBehaviour
 					
 					//If there is no more text to display, the button will do nothing
 					button.SetActive(false);
-				}				
+				}
+					typing = false;
 			}	
 		}
     }
@@ -58,8 +64,6 @@ public class Dialogue : MonoBehaviour
 		if(index<sentences.Length - 1) //Displaying where text where possible
 		{
 			index++;
-			textDisplay.text = "";
-			StartCoroutine(Type());
 		}
 		else //When the dialogue has finished
 		{
@@ -70,10 +74,13 @@ public class Dialogue : MonoBehaviour
 	
 	IEnumerator Type() //Gives the text a some-what of a fade animation
 	{
+		textDisplay.text = ""; //Resets the line
+		
 		foreach(char letter in sentences[index].ToCharArray())
 		{
 			textDisplay.text += letter;
 			yield return new WaitForSeconds(0.03f);
 		}
+		NextSentence(); //Plays the next sentence
 	}
 }
