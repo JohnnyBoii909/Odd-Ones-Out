@@ -1031,13 +1031,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 63794584}
-  sentences:
-  - 'Dog: *Barks*'
-  - 'You: The ****'
-  - 'Dog: *Woof*'
+  sentences1:
+  - geaw
+  sentences2:
+  - fwaeaw
+  sentences3:
+  - dwad
+  sentences4:
+  - wadaw
+  sentences5:
+  - sefrewr
+  sentences6:
+  - hwee
+  sentenceTracker: 0
+  index: 0
   typingSpeed: 0.03
   button: {fileID: 944913565}
   buttonActive: 0
+  typing: 0
 --- !u!1 &123873075
 GameObject:
   m_ObjectHideFlags: 0

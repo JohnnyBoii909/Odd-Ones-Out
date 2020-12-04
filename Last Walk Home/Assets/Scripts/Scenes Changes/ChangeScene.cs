@@ -15,4 +15,13 @@ public class ChangeScene : MonoBehaviour
             SceneManager.LoadScene(levelIndex);
         }
     }
+
+    private void Start()
+    {
+        GameManager gm = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+        if(gm != null)
+        {
+            gm.CheckState();
+        }
+    }
 }

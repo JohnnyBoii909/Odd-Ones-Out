@@ -14,7 +14,10 @@ public class GamestateTracker : MonoBehaviour
             case 0:
                 //before talking to dog 
                ItemOnUI = GameObject.FindGameObjectWithTag("Coin");
-               ItemOnUI.SetActive(true) ;
+               if (ItemOnUI != null)
+                {
+                    ItemOnUI.SetActive(true);   
+                }
                 break;
             case 1:
                 //after dog interaction
