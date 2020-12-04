@@ -8,6 +8,8 @@ TagManager:
   - Coin
   - Cigarette
   - Burger
+  - Employee
+  - GameManager
   layers:
   - Default
   - TransparentFX

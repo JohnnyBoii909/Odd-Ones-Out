@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour
             Destroy(this.gameObject);
         }
         DontDestroyOnLoad(this.gameObject);
+
     }
 
     private void FixedUpdate()
