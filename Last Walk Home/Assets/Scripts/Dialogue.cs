@@ -121,7 +121,7 @@ public class Dialogue : MonoBehaviour
 		foreach(char letter in incSentence[index].ToCharArray())
 		{
 			textDisplay.text += letter;
-			yield return new WaitForSeconds(0.03f);
+			yield return new WaitForSeconds(0.01f);
 		}
 		NextSentence(incSentence); //Plays the next sentence
 	}

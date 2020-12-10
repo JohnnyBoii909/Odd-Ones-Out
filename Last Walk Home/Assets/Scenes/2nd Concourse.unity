@@ -237,7 +237,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.005188331, y: -0.0077192485}
+  m_Offset: {x: 0.005188331, y: -0.037291735}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -248,7 +248,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.24524555, y: 0.28116405}
+  m_Size: {x: 0.2, y: 0.18658692}
   m_EdgeRadius: 0
 --- !u!212 &169918781
 SpriteRenderer:
@@ -345,22 +345,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1512548147}
   sentences1:
-  - Gamestate 1
+  - 'Employee: We are closing'
   - 
   sentences2:
-  - Gamestate 2
+  - Can I get a burger?
+  - "Employee: Sorry, I\u2019m just about to close up shop, mate."
+  - 'Are you sure there''s nothing I could have? '
+  - Even if it's just a few patties or something?
+  - "Employee: I\u2019ll tell you what. Go get me a pack"
+  - 'of smokes from the vending machine '
+  - and I'll give you this unclaimed order.
   - 
   sentences3:
-  - Gamestate 3
+  - 'Employee: You got the cigarette? '
+  - Not yet.
   - 
   sentences4:
-  - Gamestate 4
+  - 'Employee: Thanks. Here, you must be hungry. '
   - 
   sentences5:
-  - Gamestate 5
+  - 'Employee: Sorry,that was all food left.'
   - 
   sentences6:
-  - Go away I'm closing up shop
+  - 'Employee: Sorry,that was all food left.'
+  - 
   sentenceTracker: 0
   index: 0
   typingSpeed: 0
@@ -2593,8 +2601,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 0.000024319, y: -301}
+  m_SizeDelta: {x: 759.3931, y: 104.390396}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1512548147
 MonoBehaviour:
@@ -2650,7 +2658,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_textAlignment: 257
+  m_textAlignment: 514
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -2903,7 +2911,7 @@ Canvas:
   m_GameObject: {fileID: 1928041811}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0

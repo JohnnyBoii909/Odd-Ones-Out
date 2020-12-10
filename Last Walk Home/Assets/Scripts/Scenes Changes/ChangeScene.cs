@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ChangeScene : MonoBehaviour
 {
     public Direction direction;
     public int levelIndex;
-    void OnTriggerEnter2D(Collider2D triggerbox)
+    public void OnTriggerEnter2D(Collider2D triggerbox)
     {
         if(triggerbox.GetComponent<PlayerController>())
         {
