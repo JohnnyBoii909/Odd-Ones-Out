@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Version1.unity
-    guid: 18413d1231b98df4ea21fa407a30c03a
+    path: Assets/Scenes/0 Title Screen.unity
+    guid: fcbe9d1ca7bf768499fad54e30eb6290
   - enabled: 1
     path: Assets/Scenes/1st Train Platform.unity
     guid: 39010063b8062d34b9803761cc345667
@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/6th Win Screen.unity
     guid: cbe505cca8fa1be469825fd8afb80ac5
+  - enabled: 0
+    path: Assets/Scenes/Version1.unity
+    guid: 18413d1231b98df4ea21fa407a30c03a
   m_configObjects: {}
